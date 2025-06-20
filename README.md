@@ -2,8 +2,7 @@
 ## Summary:
 This project builds a personalized News Recommendation System in Go with SQL for tracking user interactions and authorization. It uses Colly for web scraping and caching for faster performance.
 ## Features
-- News Recommendation Algorithm
-  - Personalized FYP based on:
+- Personalized FYP based on:
     - User's news visit history (categories and recency)
     - Randomized content diversity
 - SQL for:
@@ -14,7 +13,7 @@ This project builds a personalized News Recommendation System in Go with SQL for
 - Caching and hash sets for optimized performance
 ## Getting started:
 ### Prerequisites:
-- MySql Database
+- MySQL Database
 - Golang
 - Node.js
 ### Video demonstration:
@@ -45,8 +44,8 @@ npm run dev
 ### Setting up .env
 The env file has this format:
 </br>
-` DBUSER="Your database username" `
+ ` DBUSER="Your database username" `
 </br>
-` DBPASS="Database password" `
+ ` DBPASS="Database password" `
 </br>
-` SESSION_KEY="A random key for creating a secure session" `
+ ` SESSION_KEY="A random key for creating a secure session" `
